@@ -1,38 +1,55 @@
-.App {
-  text-align: center;
+* {
+     border: 1px solid red;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#subroot {
+     position: absolute;
+     top: 37%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     height: fit-content;
+     width: fit-content;
+     min-width: 400px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#search-bar {
+     align-items: center;
+     display: inline-block;
+     height: fit-content;
+     width: fit-content;
+     border-radius: 20px;
+     background-color: rgba(240, 248, 255, 0.8);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#search-bar * {
+     margin: 5px 10px;
+     padding: 3px 10px;
+
 }
 
-.App-link {
-  color: #61dafb;
+#search-bar input {
+     height: 40px;
+     width: 65%;
+     background-color: transparent;
+     border: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#search-bar input:focus {
+     outline: none;
+}
+
+#search-bar button {
+     height: fit-content;
+     width: 25%;
+     background-color: rgb(182, 219, 252);
+     border: none;
+}
+
+#search-bar button:hover {
+     background-color: rgb(200, 200, 200);
+     cursor: pointer;
+}
+
+#select-bar{
+     margin:15px;
 }
