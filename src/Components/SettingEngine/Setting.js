@@ -1,0 +1,29 @@
+import React from 'react';
+import SettingPage from './SettingPage.js';
+
+class Setting extends React.Component {
+  state = {
+    settingPageOpen: false
+  }
+
+  refresh = () => {
+    let { settingPageOpen } = this.state;
+    settingPageOpen = !settingPageOpen;
+    console.log(settingPageOpen);
+    this.setState({ settingPageOpen });
+  }
+
+  render() {
+    return (
+      <div>
+        <img
+          src="data:image/png;base64,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"
+          onClick={this.refresh}
+        />
+        {this.state.settingPageOpen ? <SettingPage /> : null};
+      </div>
+    )
+  }
+}
+
+export default Setting;

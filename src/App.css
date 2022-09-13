@@ -1,0 +1,16 @@
+* {
+     padding: 0;
+     margin: 0;
+}
+
+#root {
+     background-image: url("https://source.unsplash.com/random/4000x3000/?scenary");
+
+     height: 100vh;
+     width: 100vw;
+
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     
+}

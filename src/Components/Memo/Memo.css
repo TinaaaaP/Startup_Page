@@ -1,0 +1,14 @@
+.memo {
+     position: fixed;
+     margin: 17px 0;
+     background-color:rgb(0,0,0,0);
+     height: calc(100% - 34px);
+}
+
+button {
+     padding: 2px 5px;
+     margin: 2px;
+     border-radius: 10px;
+     background-color: rgba(128,128,128,0.6);
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

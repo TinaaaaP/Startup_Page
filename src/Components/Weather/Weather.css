@@ -1,0 +1,35 @@
+ #weather {
+    position: fixed;
+    top: 70px;
+    left: calc(100% - 150px);
+    transform: translate(-50%,-50%);
+    height: fit-content;
+    width: 220px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    background-color: rgba(128,128,128,0.6);
+ }
+
+ #weather>#data {
+     float:right;
+     list-style: none;
+     top:5px;
+     width: 140px;
+     height: fit-content;
+ }
+
+ #weather>#data>li {
+     float: right;
+     margin: 3px 0px;
+     height: fit-content;
+     width: 140px;
+     font-size: 15px;
+     font-family: "Segoe UI", "Frutiger", "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", "Arial", "sans-serif";
+     line-height: 15px;
+ }
+
+#weather>#icon {
+     float:left;
+     height: 84px;
+     width: 80px;
+}
